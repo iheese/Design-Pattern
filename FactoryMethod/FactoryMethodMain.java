@@ -1,7 +1,7 @@
 import factory.ItemFactory;
 import framework.Item;
 
-public class Main {
+public class FactoryMethodMain {
     public static void main(String[] args) {
         ItemFactory factory = new ItemFactory();
 
