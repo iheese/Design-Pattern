@@ -1,4 +1,4 @@
-import Client.Person;
+import client.Person;
 import child.Eat;
 import child.Play;
 import child.Sleep;
