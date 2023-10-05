@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Proxy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Singleton" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AbstractFactory" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Builder" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
