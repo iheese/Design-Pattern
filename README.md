@@ -161,6 +161,24 @@
 
 <br>
 
+### Command
+- 실행될 기능을 캡슐화하여 재사용성이 높은 클래스를 설계하기 위한 디자인 패턴입니다.
+- 커맨드 패턴은 크게 Invoker(호출자), Receiver(수신자), Command(명령)으로 나뉩니다.
+> - Invoker : 기능 실행을 요청하는 역할
+> - Receiver : 명령을 수행하는 역할
+> - Command : Invoker 가 주입받는 대상들이자, Receiver를 호출하는 역할
+- 각각 Invoker, Receiver, Command 가 캡슐화되어 결합도가 낮아진다.
+
+#### 예제 설명
+1. Command 인터페이스를 만들고(내부에는 실행하는 메소드만 존재), TV 를 켜고 끄는 명령에 대한 클래스를 각각 구현합니다. 
+2. Invoker 인 RemoteControl 에서는 Command 구현체를 인자로 받아 객체를 실행한다.
+3. RemoteControl 의 인자 객체를 바꿔가며 Command 를 실행한다. 
+
+#### 단점
+- Receiver 동작이 늘어 나면서 Command의 종류가 많아지게 된다. 코드의 양이 늘어난다. 
+
+<br>
+
 #### Reference
 - [Refactoring GURU](https://refactoring.guru/ko)
 - [Inpa Dev](https://inpa.tistory.com/)
